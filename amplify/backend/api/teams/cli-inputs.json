@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/teams": {
+      "name": "/teams",
+      "lambdaFunction": "teamsLambda",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "read"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    }
+  }
+}

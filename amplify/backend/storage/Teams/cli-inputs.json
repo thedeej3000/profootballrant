@@ -1,0 +1,14 @@
+{
+  "resourceName": "Teams",
+  "tableName": "Teams",
+  "partitionKey": {
+    "fieldName": "TeamId",
+    "fieldType": "number"
+  },
+  "sortKey": {
+    "fieldName": "Area",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

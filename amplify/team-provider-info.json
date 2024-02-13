@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-profootballrant-dev-170703-authRole",
+      "UnauthRoleArn": "arn:aws:iam::654654470752:role/amplify-profootballrant-dev-170703-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::654654470752:role/amplify-profootballrant-dev-170703-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-profootballrant-dev-170703-deployment",
+      "UnauthRoleName": "amplify-profootballrant-dev-170703-unauthRole",
+      "StackName": "amplify-profootballrant-dev-170703",
+      "StackId": "arn:aws:cloudformation:us-east-1:654654470752:stack/amplify-profootballrant-dev-170703/116e78e0-c085-11ee-b9a3-0a349950b0c5",
+      "AmplifyAppId": "d26hkijp5plwk8",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-profootballrant-dev-170703-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "storage": {
+        "Teams": {}
+      },
+      "auth": {
+        "profootballrantea827fa0": {}
+      },
+      "function": {
+        "teamsLambda": {
+          "deploymentBucketName": "amplify-profootballrant-dev-170703-deployment",
+          "s3Key": "amplify-builds/teamsLambda-465832556d38704c7553-build.zip"
+        }
+      },
+      "api": {
+        "teams": {}
+      }
+    }
+  }
+}
